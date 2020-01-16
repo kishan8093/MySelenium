@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan">
+	<test name="Regression">
+		<groups>
+			<run>
+				<include name="smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testpackage.Day1"/>
+			<class name="com.testpackage.Day2"/>
+			<class name="com.testpackage.Day3"/>
+			<class name="com.testpackage.Day4"/>
+		</classes>
+	</test>
+</suite>

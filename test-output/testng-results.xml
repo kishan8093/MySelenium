@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102170" started-at="2020-01-03T09:12:56Z" finished-at="2020-01-03T09:14:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="102170" started-at="2020-01-03T09:12:56Z" finished-at="2020-01-03T09:14:38Z">
+      <class name="Datapro">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Datapro@21a06946]" name="login" duration-ms="23726" started-at="2020-01-03T14:42:56Z" data-provider="getdata" finished-at="2020-01-03T14:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Datapro@21a06946]" name="login" duration-ms="21280" started-at="2020-01-03T14:43:20Z" data-provider="getdata" finished-at="2020-01-03T14:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tuna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sahu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Datapro@21a06946]" name="login" duration-ms="21879" started-at="2020-01-03T14:43:41Z" data-provider="getdata" finished-at="2020-01-03T14:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[basanta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Datapro@21a06946]" name="login" duration-ms="35246" started-at="2020-01-03T14:44:03Z" data-provider="getdata" finished-at="2020-01-03T14:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Datapro -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

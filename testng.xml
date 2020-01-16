@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking">
+  <test name="CreditCard">
+    <classes>
+      <class name="com.testpackage.Day1"/>
+      <class name="com.testpackage.Day2"/>
+      <class name="com.testpackage.Day4"/>
+    </classes>
+  </test>
+  <test name="Insurance">
+    <classes>
+    	<class name="com.testpackage.Day3">
+    		<methods>
+    			<exclude name="mobilelogin"/>
+    		</methods>
+    	</class>
+    	
+    </classes>  
+  </test>
+</suite> 

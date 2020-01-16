@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Banking]">
+  <test name="CreditCard">
+    <classes>
+      <class name="com.testpackage.Day1"/>
+      <class name="com.testpackage.Day2"/>
+      <class name="com.testpackage.Day4"/>
+    </classes>
+  </test> <!-- CreditCard -->
+  <test name="Insurance">
+    <classes>
+      <class name="com.testpackage.Day3">
+        <methods>
+          <exclude name="mobilelogin"/>
+        </methods>
+      </class> <!-- com.testpackage.Day3 -->
+    </classes>
+  </test> <!-- Insurance -->
+  <test name="CreditCard(failed)">
+    <classes>
+      <class name="com.testpackage.Day4">
+        <methods>
+          <include name="mobileloginHomepage"/>
+        </methods>
+      </class> <!-- com.testpackage.Day4 -->
+    </classes>
+  </test> <!-- CreditCard(failed) -->
+</suite> <!-- Failed suite [Banking] -->
